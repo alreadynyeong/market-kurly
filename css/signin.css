@@ -1,0 +1,9 @@
+.signinContainer {
+    /* flex-direction: column;
+    align-items: center;
+    display: inline-block;
+    width: 100%; */
+}
+.login {
+    flex-direction: column;
+}
