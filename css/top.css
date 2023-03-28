@@ -1,0 +1,94 @@
+html {
+    margin: 0;
+}
+body {
+    margin: 0;
+}
+div {
+    /* border: 1px solid seagreen; */
+}
+a {
+    color: black;
+    text-decoration: none;    
+}
+/* 상단부분 */
+.top {
+    text-align: center;
+    height: 100px;
+    width: 90%;
+}
+.menu {
+    float: right;
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.kurly {
+    margin-left: -70px;
+    font-size: large;
+    display: flex;
+}
+.function {
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons > button {
+    background: none;
+    border: 0;
+}
+/* 검색창 */
+.search {
+    border: 1px solid purple;
+    border-radius: 5px;
+    width: 400px;
+    height: 48px;
+}
+.search > form > button {
+    margin-top: 5px;
+    border: none;
+    background: none;
+}
+.search > form > input {
+    border: none;
+    border:0;
+    width: 300px;
+    height: 18.4px;
+    font-size: large;
+}
+input:focus {
+    outline: none;
+}
+/* 카테고리 */
+.category {
+    margin-top: 30px;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+}
+.category > button {
+    font-size: large;
+    background: none;
+    border: 0;
+}
+.category > div {
+    font-size: small;
+}
+.want {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.want >button {
+    font-size: large;
+    background: none;
+    border: 0;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}

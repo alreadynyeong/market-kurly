@@ -1,0 +1,16 @@
+.container {
+    align-items: center;
+}
+.signup {
+    width: 600px;
+    margin-top: 80px;
+}
+.title {
+    text-align: center;
+}
+#star {
+    color: red;
+}
+#gray {
+    color: gray;
+}
