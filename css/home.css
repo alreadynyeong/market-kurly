@@ -61,10 +61,26 @@ button {
 }
 /* 카테고리 */
 .category {
+    margin-top: 30px;
     clear: both;
+    display: flex;
+    justify-content: space-between;
+}
+.category > button {
+    font-size: large;
+}
+.category > div {
+    font-size: small;
+}
+.want {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.want >button {
+    font-size: large;
 }
 .material-symbols-outlined {
-    color: purple;
     font-variation-settings:
     'FILL' 0,
     'wght' 400,
