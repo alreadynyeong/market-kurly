@@ -87,3 +87,20 @@ button {
     'GRAD' 0,
     'opsz' 48
 }
+.banner {
+    background-color: cadetblue;
+    height: 379px;
+}
+.component {
+    text-align: center;
+    margin-top: 50px;
+}
+.product {
+    text-align: left;
+    display: inline-block;
+    width: 249px;
+    margin: 10px;
+}
+.product > div {
+    margin-top: 5px;
+}
