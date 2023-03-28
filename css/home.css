@@ -20,13 +20,13 @@ a {
 .menu {
     float: right;
     font-size: small;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 .kurly {
+    margin-left: -70px;
     font-size: large;
     display: flex;
-    justify-content: space-between;
 }
 .function {
     clear: both;
