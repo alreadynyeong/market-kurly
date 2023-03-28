@@ -75,11 +75,17 @@
         
         <div class="login">
         <form>
-            <p><input type="text" name="usermame" placeholder="아이디를 입력해주세요"></p>
-            <p><input type="password" name="passwd" placeholder="비밀번호를 입력해주세요"></p> 
-            <p><a>아이디 찾기</a><a>|</a><a>비밀번호 찾기</a> </p>  
-            <p><input type="submit" value="로그인"></p>
-            <div onclick="location.href='./signup.html'">회원가입</div>     
+            <div class="loginInput">
+                <input type="text" name="usermame" placeholder="아이디를 입력해주세요">
+                <input type="password" name="passwd" placeholder="비밀번호를 입력해주세요">
+            </div>
+            <div class="find"><a>아이디 찾기</a><a>|</a><a>비밀번호 찾기</a> </div>  
+            <div class="loginbtns">
+                <button class="loginBtn" type="submit">로그인</button>
+                <button class="signinBtn" onclick="location.href='./signup.html'" type="button">회원가입</button>
+            </div>
+            
+            
         </form>
         </div>
     </div>

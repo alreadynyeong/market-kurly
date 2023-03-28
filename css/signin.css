@@ -1,9 +1,44 @@
 .signinContainer {
-    /* flex-direction: column;
+    text-align: center;
     align-items: center;
-    display: inline-block;
-    width: 100%; */
+   width: 500px;
 }
 .login {
+}
+.loginInput {
+    justify-content: center;
     flex-direction: column;
+    display: flex;
+}
+.loginInput > input{
+    width: 235px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.find {
+    font-size: small;
+}
+.loginbtns {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+.loginbtns > button {
+    width: 240px;
+    height: 50px;
+    font-size: large;
+    border: 1px solid purple;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.loginBtn{
+    background-color: purple;
+    color: white;
+}
+
+.signinBtn{
+    background-color: white;
+    color: purple;
 }
