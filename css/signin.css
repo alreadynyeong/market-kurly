@@ -1,13 +1,17 @@
 .signinContainer {
     text-align: center;
     align-items: center;
-   width: 500px;
+    width: 500px;
+    margin: auto;
+    margin-top: 80px;
 }
 #input {
     display : flex ;
     flex-direction : row ;
 }
 .login {
+    width: fit-content;
+    margin: auto;
 }
 .loginInput {
     justify-content: center;
@@ -15,11 +19,12 @@
     display: flex;
 }
 .loginInput > input{
-    width: 235px;
+    width: 225px;
     height: 40px;
     border: 1px solid gray;
     border-radius: 3px;
     margin-bottom: 10px;
+    padding-left: 10px;
 }
 .find {
     font-size: small;
