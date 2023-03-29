@@ -3,7 +3,6 @@
     align-items: center;
     width: 500px;
     margin: auto;
-    margin-top: 80px;
 }
 #input {
     display : flex ;
