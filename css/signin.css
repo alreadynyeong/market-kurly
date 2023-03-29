@@ -3,6 +3,10 @@
     align-items: center;
    width: 500px;
 }
+#input {
+    display : flex ;
+    flex-direction : row ;
+}
 .login {
 }
 .loginInput {
