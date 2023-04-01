@@ -10,6 +10,8 @@ input {
 }
 #inputTitle {
     width: 100px;
+    line-height: 45px;
+    
 }
 #input > div > button {
     height: 45px;
@@ -52,4 +54,22 @@ input {
 .btnDiv {
     margin: auto;
     width: fit-content;
+}
+#check {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+#check > input {
+    width: 20px;
+}
+.terms {
+    width: 500px;
+}
+.terms > div {
+    display: flex;
+    justify-content: space-between;
+}
+.terms > div > div > input {
+    width: 20px;
 }
