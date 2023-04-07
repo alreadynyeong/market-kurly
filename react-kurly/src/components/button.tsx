@@ -3,8 +3,7 @@ import styled from 'styled-components'
 
 const StyledPurpleButton = styled.div`
     text-align: center;
-    display: table-cell;
-    vertical-align: middle;
+    line-height: 50px;
     height: 50px;
     font-size: large;
     border-radius: 3px;
@@ -16,8 +15,7 @@ const StyledPurpleButton = styled.div`
 `
 const StyledPurpleLineButton = styled.div`
     text-align: center;
-    display: table-cell;
-    vertical-align: middle;
+    line-height: 50px;
     height: 50px;
     font-size: large;
     border-radius: 3px;
