@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Clover from '../image/clover.jpg'
 import styled from 'styled-components'
 
-const StyledProducts = styled.div`
+const Container = styled.div`
     text-align: center;
     margin-top: 50px
-    
+`
+
+const StyledProducts = styled.div`
+    display: flex;
+    overflow: auto;
 `
 const StyledProduct = styled.div`
     text-align: left;
@@ -35,13 +39,36 @@ const Product = () => {
 }
 
 export default function Products() {
+    // const [move, setMove] = useState(0);
+
+    // const leftMove = () => {
+    //     if(move === 0 ){
+    //         return;
+    //     }
+    //     setMove((prev) => prev+80);
+    // }
+    // const rightMove = () => {
+    //     setMove((prev) => prev-80);
+    // }
   return (
-    <StyledProducts>
+    <Container>
         <h2>이 상품 어때요?</h2>
-        <Product/>
-        <Product/>
-        <Product/>
-    </StyledProducts>
+        {/* <div>
+                <button onClick={leftMove}>left</button>
+                <button onClick={rightMove}>right</button>
+            </div> */}
+        <StyledProducts
+            // style={{ transform: `translateX(${move}%)` }}
+            >
+            
+            <Product/>
+            <Product/>
+            <Product/>
+            <Product/>
+            <Product/>
+            <Product/>
+        </StyledProducts>
+    </Container>
     
   )
 }
