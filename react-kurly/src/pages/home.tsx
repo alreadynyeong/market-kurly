@@ -33,7 +33,8 @@ export default function Home() {
       <img src="https://placeimg.com/600/200/people" />
       </Slider>
     </Banner>
-    <Products/>
+    <Products title='이 상품은 어때요?'/>
+    <Products title='요즘 뜨는 상품'/>
     
     </>
   )

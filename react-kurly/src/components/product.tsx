@@ -38,7 +38,18 @@ const Product = () => {
     )
 }
 
-export default function Products() {
+interface ProductsProps {
+    title?: string,
+    img?: string,
+    name?: string,
+    price?: string
+
+}
+
+export default function Products({
+    title,
+    ...props
+}: ProductsProps) {
     // const [move, setMove] = useState(0);
 
     // const leftMove = () => {
@@ -52,7 +63,7 @@ export default function Products() {
     // }
   return (
     <Container>
-        <h2>이 상품 어때요?</h2>
+        <h2>{title}</h2>
         {/* <div>
                 <button onClick={leftMove}>left</button>
                 <button onClick={rightMove}>right</button>
