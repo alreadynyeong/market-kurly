@@ -49,8 +49,7 @@ export default function Category() {
     <Container>
         <button>
         <FontAwesomeIcon icon={faBars} />
-            <span className="material-symbols-outlined">menu</span>
-            카테고리
+            <span className="material-symbols-outlined"> menu</span>
         </button>
         <Cate>
             <button>신상품</button>

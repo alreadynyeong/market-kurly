@@ -57,6 +57,7 @@ const Search = styled.div`
     width: 350px;
     height: 40px;
     border: none;
+    padding-left: 10px;
     &: focus {
       outline: none;
     }
