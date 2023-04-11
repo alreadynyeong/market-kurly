@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const StyledPurpleButton = styled.div`
+    margin: auto;
     text-align: center;
     line-height: 50px;
     height: 50px;
@@ -14,6 +15,7 @@ const StyledPurpleButton = styled.div`
 }
 `
 const StyledPurpleLineButton = styled.div`
+    margin: auto; 
     text-align: center;
     line-height: 50px;
     height: 50px;
@@ -27,8 +29,8 @@ const StyledPurpleLineButton = styled.div`
 `
 const StyledSignUpButton = styled.div`
   text-align: center;
-  line-height: 43px;
-  height: 43px;
+  line-height: 42px;
+  height: 42px;
   font-size: medium;
   border-radius: 3px;
   border: 1px solid purple;
@@ -47,7 +49,6 @@ export const PurpleButton = ({
     wid,
     ...props
   }: ButtonProps) => {
-    console.log(wid)
     return (
       <StyledPurpleButton
       style={{width:`${wid}px` }}>
@@ -61,7 +62,6 @@ export const PurpleButton = ({
     wid,
     ...props
   }: ButtonProps) => {
-    console.log(wid)
     return (
       <StyledPurpleLineButton
       style={{width:`${wid}px` }}>
@@ -75,7 +75,6 @@ export const SignUpButton = ({
   wid,
   ...props
 }: ButtonProps) => {
-  console.log(wid)
   return (
     <StyledSignUpButton
     style={{width:`${wid}px` }}>
