@@ -25,6 +25,16 @@ const StyledPurpleLineButton = styled.div`
     color: purple;
 }
 `
+const StyledSignUpButton = styled.div`
+  text-align: center;
+  line-height: 43px;
+  height: 43px;
+  font-size: medium;
+  border-radius: 3px;
+  border: 1px solid purple;
+  background-color: white;
+  color: purple;
+`
 interface ButtonProps {
     text?: string;
     on?: string;
@@ -58,5 +68,19 @@ export const PurpleButton = ({
         {text}
       </StyledPurpleLineButton>
     );
+};
+export const SignUpButton = ({
+  text,
+  on,
+  wid,
+  ...props
+}: ButtonProps) => {
+  console.log(wid)
+  return (
+    <StyledSignUpButton
+    style={{width:`${wid}px` }}>
+      {text}
+    </StyledSignUpButton>
+  );
 };
   
